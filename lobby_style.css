@@ -1,0 +1,121 @@
+body{
+  /* background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg"); */
+  /* background-image: url("images_shop/background.jpeg"); */
+  background-image: url('https://images.unsplash.com/photo-1602498456745-e9503b30470b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  margin-bottom: none;
+}
+.flexbox_container {
+    display: flex;
+    justify-content: center;
+  }
+  .c1,.c3,.c2,.c4,.c5,.c6 {
+    background-color: rgb(240,248,255);
+
+    height: 450px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    margin: 20px;
+  }
+  .im {
+    margin-top: 20px;
+    
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-position: center;
+  }
+
+  .company_name {
+    margin: auto;
+    text-align: center;
+  }
+  .star_container {
+    display: flex;
+    justify-content: center;
+  }
+  .star {
+    height: 30px;
+    width: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .price {
+    text-align: center;
+  }
+  .price_symbol {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+  }
+  .price_whole {
+    font-size: 200%;
+  }
+  .og_price {
+    color: #565959;
+  }
+  .nike {
+    height: 36px;
+    width: 130px;
+    background-color:#E6E6FA;
+    border-radius: 30px;
+    border-width: 0px;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  .nike:hover {
+    background-color: rgb(208, 177, 22);
+  }
+  .nike:active {
+    opacity: 0.7;
+  }
+  .nike2 {
+    height: 36px;
+    width: 130px;
+    background-color: rgb(255, 141, 20);
+    border-radius: 30px;
+    border-width: 0px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.4s;
+  }
+  .nike2:hover {
+    background-color: rgb(212, 117, 15);
+  }
+  .nike2:active {
+    opacity: 0.84;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9px;
+  }
+  .cart {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+  }
+  .heading{
+    color: black;
+    text-align: center;
+    font-family:  Garamond, serif;
+    font-weight: 10;
+    /* font-style: italic; */
+    font-size: 50px;
+    padding: 20px;
+    margin: 0px;
+    display: block;
+  }
+  .gobacktohomeheadinglink{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }

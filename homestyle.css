@@ -1,0 +1,17 @@
+.flex_box{
+	display:flex;
+	justify-content: center;
+}
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6{
+
+
+	height: 450px;
+	width:350px;
+	backdrop-filter: blur(10px);
+	margin:20px;
+}
